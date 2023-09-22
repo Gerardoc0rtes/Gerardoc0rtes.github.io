@@ -20,7 +20,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: centerAnimation 3s infinite alternate;
 }
 
 .petals {
@@ -33,14 +32,22 @@ body {
     animation: petalsAnimation 3s infinite alternate;
 }
 
-@keyframes centerAnimation {
-    0% {
-        transform: translate(-50%, -50%) scale(1);
-    }
-    100% {
-        transform: translate(-50%, -50%) scale(1.2);
-    }
+.petal {
+    width: 20px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50% 50% 0 0;
 }
+
+.petal1 { transform: rotate(30deg); }
+.petal2 { transform: rotate(60deg); }
+.petal3 { transform: rotate(90deg); }
+.petal4 { transform: rotate(120deg); }
+.petal5 { transform: rotate(150deg); }
 
 @keyframes petalsAnimation {
     0% {
