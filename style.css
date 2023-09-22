@@ -24,7 +24,7 @@ body{
 .header {
     text-align: center;
     font-size: 36px;
-    color: #333; /* Color del texto */
+    color: #ddff00; /* Color del texto */
     padding: 20px; /* Espacio alrededor del encabezado */
 
     margin: 0; /* Elimina el margen predeterminado del encabezado */
