@@ -175,7 +175,7 @@ body{
     width: 10vmin;
     height: 9vmin;
     left: -10% !important;
-    background-image: linear-gradient(to left bottom, #ad2be0 ,#712291);;
+    background-image: linear-gradient(to left bottom, #f6ff00 ,#f6ff00);;
 }
 
 .flower__line{
@@ -250,7 +250,7 @@ body{
     clip-path: none;
     border-radius: 10vmin 2vmin 10vmin 2vmin;
     transform: rotate(-55deg);
-    background-image: linear-gradient(to left bottom, #ffa085 ,#eb8b8b,#492f2f 98%);
+    background-image: linear-gradient(to left bottom, #f6ff00 ,#f6ff00,#f6ff00 98%);
 }
 
 .flower__fall-down--yellow{
