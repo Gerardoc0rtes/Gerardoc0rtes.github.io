@@ -26,7 +26,7 @@ body{
     font-size: 36px;
     color: #333; /* Color del texto */
     padding: 20px; /* Espacio alrededor del encabezado */
-    background-color: #ffcc00; /* Color de fondo del encabezado */
+
     margin: 0; /* Elimina el margen predeterminado del encabezado */
     position: absolute;
     top: 0;
