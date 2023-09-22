@@ -21,6 +21,75 @@ body{
     overflow: hidden;
 }
 
+#video-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.audio-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 90px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.audio-container audio {
+    width: 100%;
+    
+    color: white;
+    outline: none;
+}
+
+/* Estilo para los controles del reproductor */
+.audio-container audio::-webkit-media-controls-panel {
+    background-color: #06e7be;
+}
+
+.audio-container audio::-webkit-media-controls-play-button {
+    background-color: #f01dad;
+    color: #333;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.audio-container audio::-webkit-media-controls-volume-slider {
+    background-color: #f01dad;
+}
+
+.audio-container audio::-webkit-media-controls-mute-button {
+    background-color: #f01dad;
+    color: #333;
+    border: none;
+    border-radius: 50%;
+}
+
+/* Estilo para los botones de reproducción personalizados */
+.audio-container button {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.audio-container button:hover {
+    background-color: #f5b900;
+}
+
+
 .header {
     text-align: center;
     font-size: 36px;
@@ -139,13 +208,13 @@ body{
 .f-wrapper--2 .flower__leaf:not(:first-child){
     width: 3.8vmin;
     height: 10vmin;
-    background-image: linear-gradient(to bottom, #ff43b6 ,#c22887, #1a233a 99%);
+    background-image: linear-gradient(to bottom, #f6ff00 ,#f6ff00, #1a233a 99%);
 }
 
 .f-wrapper--3 .flower__leaf:not(:first-child){
     width: 3.8vmin;
     height: 10vmin;
-    background-image: linear-gradient(to bottom, #ad2be0 ,#712291, #1a233a 99%);
+    background-image: linear-gradient(to bottom, #f6ff00 ,#f6ff00, #1a233a 99%);
 }
 
 .f-wrapper--3 .flower__leaf--1{
