@@ -104,7 +104,7 @@ body{
 }
 
 .flower{
-    position: center;
+    position: relative;
 }
 
 .flower__glass{
