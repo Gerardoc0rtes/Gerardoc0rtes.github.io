@@ -159,7 +159,7 @@ body{
     width: 8vmin;
     height: 10vmin;
     bottom: 2vmin;
-    background-color: #de118b;
+    background-color: #f6ff00;
 }
 
 .f-wrapper--2 .f .flower__leaf--8{
@@ -168,7 +168,7 @@ body{
     bottom: 3vmin;
     left: -30%;
     transform: rotate(-50deg);
-    background-image: linear-gradient(to left bottom, #ff43b6 ,#4d1337);;
+    background-image: linear-gradient(to left bottom, #f6ff00 ,#f6ff00);;
 }
 
 .f-wrapper--3 .f .flower__leaf--8{
